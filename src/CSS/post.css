@@ -1,0 +1,121 @@
+
+.posts {
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.posts .post_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.posts .post_header .post_headerLeft {
+    display: flex;
+    align-items: center;
+}
+
+.posts .post_header .post_profile_details h3 {
+    font-size: 14px;
+    margin: 0px;
+    margin-left: 10px;
+}
+
+.posts .post_header .post_profile_details p {
+    font-size: 12px;
+    margin: 0px;
+    margin-left: 10px;
+}
+
+.post_body p {
+  font-size: 14px;
+  padding: 20px 0px;
+}
+
+.post_footer {
+    display: flex;
+    border-top: 1px solid rgb(231, 231, 231);
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.post_footer .post_footer_option {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 30px;
+}
+.post_footer .post_footer_option:hover{
+    background-color: #dcdcdc;
+    border-radius: 2px;
+}
+
+.post_footer .post_footer_option svg {
+    margin-right: 10px;
+    color: rgb(90, 90, 90);
+}
+
+.post_footer .post_footer_option span {
+    color: rgb(90, 90, 90);
+    font-size: 12px;
+}
+
+.post_header .post_headerLeft .MuiSvgIcon-root {
+    width: 40px;
+    height: 40px;
+    margin: 0px auto;
+    object-fit: contain;
+}
+@media(max-width:415px){
+    .posts{
+        
+        height: 280px;
+    }
+.post_header .post_headerLeft .MuiSvgIcon-root {
+    width: 70px;
+    height: 70px;
+    margin: 0px auto;
+    object-fit: contain;
+}
+.posts .post_header .post_profile_details h3 {
+    font-size: 20px;
+}
+
+.posts .post_header .post_profile_details p {
+    font-size: 16px;
+
+}
+.post_footer .post_footer_option span {
+    display: none;
+}
+.post_footer .post_footer_option {
+    width:200px;
+    height: 55px;
+    align-items: center;
+    border-radius: 25px;
+}
+.post_footer .post_footer_option svg {
+    margin-right: 10px;
+    position: relative;
+    left:40px;
+    font-size: 40px;
+    
+}
+.post_body p {
+    font-size: 20px;
+    padding: 10px 0px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
